@@ -1,0 +1,9 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: https://bc104-be.fe-assignment.tk/eureka/
+
+  instance:
+    hostname: localhost
